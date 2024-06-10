@@ -1,8 +1,11 @@
+import './homepage.css'
+
+
 const Home = () => {
     return ( 
-        <nav className="Homepage">
+        <div className="container_hone">
             <h1>Welcome To this e-Learning Platform</h1>
-        </nav>
+        </div>
      );
 }
  
