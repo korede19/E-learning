@@ -199,7 +199,7 @@ input[type="checkbox"] {
     align-items: center;
     padding-top: 12px;
     padding-bottom: 12px;
-    
+    cursor: pointer;
 }
 .class-2{
     width: 625px;
@@ -211,6 +211,7 @@ input[type="checkbox"] {
     align-items: center;
     padding-top: 12px;
     padding-bottom: 12px;
+    cursor: pointer;
 }
 
 
