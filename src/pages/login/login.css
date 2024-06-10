@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    position: relative;
+    color: #292D32;
+    font-family: work sans;
+  }
+  
+h1 {
+    color: #292D32;
+    font-family: Work Sans;
+    font-size: 38.44px;
+    font-weight: 400;
+    line-height: 45.09px;
+    text-align: left;
+
+  }
+   p{
+    font-family: Work Sans;
+    font-size: 16.22px;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: left;
+    color: #292D32;
+   }
+  
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #144688;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  
+  .row {
+    display: flex;
+  }
+  
+  .column1 {
+    background-color: #004BB0;
+    float: left;
+    width: 30%;
+    height: 1000px;
+  }
+  
+  .column2 {
+    background-color: #ffffff;
+    float: left;
+    width: 70%;
+    height: 1000px;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .left {
+    width: 40%;
+  }
+  
+  .right {
+    width: 60%;
+  }
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  
+  /* logo */
+  .logo{
+    padding: 80px;
+  }
+  
+  .header{
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+  }
+  .container{
+    margin: auto;
+    width: 650px;
+    height: 623.45px;
+    padding-top: 60.09px;
+
+  }
+.header{
+    height: 74.48px;
+    padding-top: 24.03px;
+    padding-left: -0.3px;
+    gap: 0px;
+    opacity: 0px;
+}
+.form{
+    width: 594.62px;
+    height: 559.78px;
+    padding-top: 110.57px;
+    opacity: 0px;
+}
+.space{
+    position: relative;
+  top: -10px;
+}
+  /* form Style */
+.input{
+    position: relative;
+    padding-bottom: 10px;
+    height: 58px;
+    top: 10px;
+    left: 0.85px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+}
+
+
+input{
+    top: 3px;
+    left: 0.85px;
+    padding: 19px 450px 19px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    background-color: #D9D9D9;
+    font-family: work sans;  
+    border: 0px;  
+    color: #292D32;
+}
+
+.text{
+    position: relative;
+}
+
+form{
+    padding-top: 0px;
+    height: 3px;
+}
+
+.checkbox{
+position: relative;
+height: 36px;
+top: 10px;
+gap: 0px;
+opacity: 0px;
+color: #292D32;
+font-family: work sans;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #004BB0;
+    background-color: transparent;
+    color: #ffffff;
+  }
+
+.submitContainer{
+    position: relative;
+    height: 36px;
+    top: 45px;
+    bottom: 1px;
+    gap: 0px;
+    opacity: 0px;
+    color: #292D32;
+    font-family: work sans; 
+}
+.submitContainer-2{
+    position: relative;
+    height: 36px;
+    top: -10px;
+    bottom: 1px;
+    gap: 0px;
+    opacity: 0px;
+    color: #292D32;
+    font-family: work sans; 
+}
+.class{
+    width: 625px;
+    border-radius: 4px;
+    background-color: #004BB0;
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+.class-2{
+    width: 625px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid #004BB0;
+    text-align: center;
+    color: #004BB0;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+.text{
+  top: -4px;
+  display: flex;
+  width: 60%;
+  float: left;
+}
+
+.img{
+  position: relative;
+  display: flex;
+  padding: 0;
+  margin: auto;
+  align-items: center;
+  float: left;
+ width: 40% ;
+ flex-wrap: wrap;
+ justify-content: flex-end;
+ top: -2px;
+}
+
+.logo{
+  display: flex;
+  float: right;
+  position: relative;
+  width: 187px;
+  height: 56px;
+  top: 22px;
+  left: -350px;
+  gap: 8px;
+  opacity: 0px;
+}
+
+.frame{
+  display: flex;
+  width: 406.02px;
+  gap: 0px;
+  opacity: 0px;
+  height: 961px;
+}
