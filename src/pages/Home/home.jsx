@@ -3,6 +3,10 @@ import logo from './assets/logo.png'
 import logo2 from './assets/logo 2.png'
 import darkmode from './assets/darkmode.png'
 import darkmode2 from './assets/darkmode-2.png'
+import hero from './assets/hero image.png'
+import heroImage from './assets/heroImages.png'
+import sponsors from './assets/sponsors.png'
+import image_1 from './assets/image_1.png'
 
 const Home = () => {
     return ( 
@@ -44,7 +48,59 @@ const Home = () => {
       </div>
       <div id="hamburger-cross">&#10006;</div>
     </div>
-        </div>
+    <div className="heroSection">
+      <img src={hero} style={{width: '53px',
+      height: '41px',
+      top: '15px',
+      left: '465px',
+      position: 'relative',
+  }} />
+      <h1 class="heroHeader">
+      Gain knowledge from <a class='eText'> expert instructors </a> <br />
+      at your own pace, anytime and anywhere
+      </h1>
+      <p class="heroText">
+      Unlock your potential with our engaging e-learning platform. Access high-quality courses anytime, anywhere and achieve your personal and professional goals with ease.
+      </p>
+    </div>
+    <img src={hero} style={{width: '53px',
+      height: '41px',
+      top: '180px',
+      left: '400px',
+      position: 'relative',
+  }} />
+    <div className="heroButton">
+      Start Learning
+    </div>
+<div className="heroimages">
+    <img src={heroImage} style={{
+      padding:'0px',
+      margin: '0px',
+      width: "100%",
+    }} />
+</div>
+<div className='sponsors'>
+<img src={sponsors} style={{
+      padding:'0px',
+      margin: '0px',
+      width: "100%",
+    }} />
+</div>
+<div className="popularCourse">
+    <div className="colOne">
+      <h1 class='head_two'>Transform yourself by learning  at your convenience  </h1>
+      <p className='Text_2'>Our goal is not only to provide students with education and experiences that prepare them for a successful career, but also to support them in achieving success in their chosen field by encouraging them to explore their passions and become leaders in their field.</p>
+      <div className="Button_two">
+      Apply Now
+    </div>
+    </div>
+    <div className="colTwo">
+      <img src={image_1} style={{
+        borderRadius: '4px',
+      }} />
+    </div>
+</div>
+  </div>
      );
 }
  

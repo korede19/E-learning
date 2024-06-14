@@ -264,3 +264,136 @@
         font-size: 24px;
     }
 }
+
+/* Hero Section */
+.heroSection{
+    width: 993px;
+    height: 267px;
+    top: 200px;
+    gap: 48px;
+    opacity: 0px;
+    margin: auto ;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.eText{
+    color: #0867D7;
+}
+.heroHeader{
+    font-family: work sans;
+    font-family: Work Sans;
+    font-size: 46.88px;
+    font-weight: 600;
+    line-height: 61.82px;
+    text-align: center;
+}
+.heroText{
+    position: relative;
+    width: 722px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    margin: auto;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    top: -20px;
+}
+
+.heroButton{
+    position: relative;
+    width: 151px;
+    padding: 12px 20px 12px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #0867D7;
+    text-align: center;
+    color: #ffffff;
+    align-items: center;
+    margin: auto;
+    top: 180px;
+    cursor: pointer;
+}
+
+.heroimages{
+    position: relative;
+    top: 180px;
+}
+
+.sponsors{
+    position: relative;
+    top: 180px; 
+}
+
+.popularCourse{
+    display: flex;
+    width: 1240px;
+    opacity: 0px;
+    margin: auto;
+}
+
+.colOne{
+    display: flex;
+    background-color: #ffffff;
+    float: left;
+    width: 50%;
+    height: 1000px;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.colTwo{
+    display: flex;
+    background-color: #ffffff;
+    float: left;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    padding-top: 60pxx;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.head_two{
+    width: 641.52px;
+    font-family: Work Sans;
+    font-size: 40.89px;
+    font-weight: 600;
+    line-height: 58.53px;
+    text-align: left;
+    color: #0867D7;
+}
+
+.Text_2{
+
+    margin: auto;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    top: -20px;
+    text-align: left;
+}
+
+.Button_two{
+    position: relative;
+    width: 151px;
+    padding: 12px 20px 12px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #0867D7;
+    text-align: center;
+    color: #ffffff;
+    align-items: center;
+    margin: auto;
+    top: 40px;
+    cursor: pointer;
+    float: left;
+    left: -215px;
+}
