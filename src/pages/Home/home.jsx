@@ -86,19 +86,28 @@ const Home = () => {
       width: "100%",
     }} />
 </div>
-<div className="popularCourse">
-    <div className="colOne">
-      <h1 class='head_two'>Transform yourself by learning  at your convenience  </h1>
-      <p className='Text_2'>Our goal is not only to provide students with education and experiences that prepare them for a successful career, but also to support them in achieving success in their chosen field by encouraging them to explore their passions and become leaders in their field.</p>
-      <div className="Button_two">
+<div class="wrapper">
+		<div class="box a">
+      <div className="head_two">
+      Transform yourself by learning at your convenience
+      </div>
+      <div className="Text_2">
+      Our goal is not only to provide students with education and experiences that prepare them for a successful career, but also to support them in achieving success in their chosen field by encouraging them to explore their passions and become leaders in their field.
+      </div>
+      <div className="Text_3">
+      Applications are now open
+      </div>
+      <br /><br />
+      <div className="Button_2">
       Apply Now
     </div>
     </div>
-    <div className="colTwo">
+		<div class="box b">
       <img src={image_1} style={{
         borderRadius: '4px',
       }} />
     </div>
+
 </div>
   </div>
      );
